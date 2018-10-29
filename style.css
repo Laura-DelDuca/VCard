@@ -1,0 +1,85 @@
+#v_card {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border: 2px solid black;
+}
+
+.container_top {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, rgb(19, 19, 158), rgb(178, 189, 240));
+}
+
+.container_bottom {
+    display: flex;
+    grid-row: 2;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+#container_image {
+    margin-top: 80px;
+    margin-left: 50px;
+
+}
+
+#container_info {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Marker Felt", fantasy;
+
+}
+
+.personal {
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+#container_about {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+#about_me {
+    font-family: "Marker Felt", fantasy;
+    font-style: italic;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+
+}
+
+#container_address {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
+    margin-left: 35px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Marker Felt", fantasy;
+}
+
+.list {
+    font-weight: bold;
+}
